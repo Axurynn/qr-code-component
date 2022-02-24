@@ -46,7 +46,7 @@ Mobile screenshot
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- SCSS custom properties
 - Flexbox
 - Mobile-first workflow
 - [ReactJS](https://reactjs.org/) library
