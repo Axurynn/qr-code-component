@@ -1,17 +1,16 @@
-import s from './Input.module.scss';
+import s from './InputColor.module.scss';
 
-const Input = ({ text = '', callback = () => {} }) => {
+const InputColor = ({ label = '', text = '', callback = () => {} }) => {
 	return (
 		<>
 			<div className={s.inputContainer}>
 				<label className={s.label} htmlFor='input'>
-					Enter a website url and get the associated QR code
+					{label}
 				</label>
 				<input
 					className={s.input}
 					id='input'
-					type='text'
-					placeholder='Enter here a website url'
+					type='color'
 					value={text}
 					onChange={e => callback(e.target.value)}
 				/>
@@ -20,4 +19,4 @@ const Input = ({ text = '', callback = () => {} }) => {
 	);
 };
 
-export default Input;
+export default InputColor;
