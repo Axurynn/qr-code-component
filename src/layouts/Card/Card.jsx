@@ -9,7 +9,7 @@ const Card = () => {
 	const [value, setValue] = useState('');
 
 	const [bgColor, setBgColor] = useState('#2b7dfa');
-	const [fgColor, setFgColor] = useState('#fff');
+	const [fgColor, setFgColor] = useState('#ffffff');
 
 	return (
 		<>
