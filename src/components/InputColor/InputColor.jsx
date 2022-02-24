@@ -4,12 +4,12 @@ const InputColor = ({ label = '', text = '', callback = () => {} }) => {
 	return (
 		<>
 			<div className={s.inputContainer}>
-				<label className={s.label} htmlFor='input'>
+				<label className={s.label} htmlFor='inputColor'>
 					{label}
 				</label>
 				<input
 					className={s.input}
-					id='input'
+					id='inputColor'
 					type='color'
 					value={text}
 					onChange={e => callback(e.target.value)}
