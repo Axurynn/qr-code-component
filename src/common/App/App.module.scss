@@ -1,0 +1,21 @@
+
+@import "../../styles/variables.scss";
+
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $light_gray;
+  color: $dark_blue;
+}
+
+/* Attribution - footer */
+.attribution {
+  font-size: 11px;
+
+  a {
+    color: $dark_blue;
+  }
+}
