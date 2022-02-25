@@ -40,11 +40,13 @@ const Card = () => {
 						label='Change the background color'
 						text={bgColor}
 						callback={setBgColor}
+						id='bgColor'
 					/>
 					<InputColor
 						label='Change the QR color'
 						text={fgColor}
 						callback={setFgColor}
+						id='fgColor'
 					/>
 				</div>
 			</div>
